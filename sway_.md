@@ -1,15 +1,20 @@
 # sway
+## 获取输入设备硬件
 ```
 swaymsg -t get_inputs
-
+```
+## 手动切换开关
+```
 swaymsg input <identifier> events disabled
+```
+## 配置文件打开
+```
 
-或者在
 helix .config/sway/config
 ```
-
+## 触控板
 ```
-#触控板
+
 input type:touchpad {
   events disabled
 }
