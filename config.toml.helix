@@ -48,3 +48,9 @@ tab = "→"
 newline = "⏎"
 tabpad = "·" # Tabs will look like "→···" (depending on tab width)
 
+[editor.soft-wrap]
+enable = true
+max-width = 80        # 手动指定换行宽度，可选
+wrap-at-text-width = true
+
+
