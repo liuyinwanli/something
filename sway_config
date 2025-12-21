@@ -51,4 +51,5 @@ exec_always swayidle -w \
     before-sleep '$lock'
 for_window [app_id="firefox"] inhibit_idle visible
 
-output HDMI-A-1 scale 1.2
+output eDP-1 mode 1920x1080@60Hz position 0 0
+output HDMI-A-1 mode 3840x2160@30Hz position 1920 0 scale 1.2
